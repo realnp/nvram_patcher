@@ -1,6 +1,8 @@
 # nvram_patcher
 Patches iOS kernel to allow access to all NVRAM variables.
 This tool requires tfp0 kernel patch to work (I'm not quite sure if it works with host_get_special_port 4 workaround). If nvram_patcher doesn't work for you consider using nonceEnabler by tihmstar.
+# WARNING!
+This tool causes bootloops on iOS 10+ (and maybe iOS 9+ as well). I'll try to provide a fix asap.
 # Supported devices
 I've tested it on iPad mini 4, iPad 4, iPod touch 4 and iPhone 5S, but it should work for all armv7 and arm64 devices.
 # How it works
